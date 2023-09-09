@@ -1,30 +1,30 @@
-I. Wstęp
-Przegląd tematu
-1)	Krótkie wprowadzenie do stanów akcji i trendów na giełdzie – rynek byka i niedźwiedzia, co wpływa;
-2)	Ograniczenia obecnych modeli predykcyjnych – odniesienie do modeli szeregów czasowych, które mogą nie być w stanie uchwycić dynamiki zmian cen na rynku akcji;
-3)	Potencjalne korzyści stosowania łańcuchów Markowa i sieci neuronowych do przewidywania cen akcji – umiejętność uchwycenia nieliniowych zależności i zaadaptowania się do zmiennego środowiska rynku;
-Pytania badawcze
-5)	Jak można wykorzystać łańcuchy Markowa do predykcji cen akcji na giełdzie?
-6)	Jak można wykorzystać sieci neuronowe do predykcji cen akcji na giełdzie?
-7)	Jak wypadają wyniki tych poszczególnych modeli w porównaniu ze sobą?
-Cele badań
-1)	Zbadać efektywność łańcuchów Markowa i sieci neuronowych w przewidywaniu cen akcji;
-2)	Porównać dokładność predykcji tych dwóch modeli;
-Zakres i ograniczenia
-1)	Badania zostaną przeprowadzone w zakresie giełdy S&P 500;
-2)	Przyjęcie metryki oceny trafności predykcji;
-3)	Ograniczenia ze względu na złożoność modeli – przeuczenie, niedouczenie, dobór odpowiednich parametrów;
-II. Przegląd literatury
-Przegląd modeli predykcyjnych na rynkach cen akcji;
-Modele łańcuchów Markowa i ich zastosowania;
-Modele sieci neuronowych i ich zastosowania;
-III. Dane i metodologia
-Opis źródła danych (najprawdopodobniej yahoo index);
-Przygotowanie oraz obróbka surowych danych;
-Przegląd zastosowanych modelów – założenia oraz ograniczenia łańcuchów Markowa, rekurencyjne sieci neuronowe – opis sieci LSTM i GRU;
-Przegląd zastosowanych parametrów modelu;
-IV. Wyniki i analiza modelów;
-Ewaluacja poszczególnych modelów;
-Benchmark i porównanie wyników modelów;
-Wyciągnięcie wniosków i limitacji modelów;
-V. Podsumowanie
+I. Introduction
+Overview of the topic
+1) A brief introduction to stock market stocks and trends - bull and bear market, what influences;
+2) Limitations of current predictive models - reference to time series models that may not be able to capture the dynamics of price changes in the stock market;
+3) Potential benefits of using Markov chains and neural networks to predict stock prices - the ability to capture non-linear relationships and adapt to a changing market environment;
+Research questions
+5) How can Markov chains be used to predict stock prices in the stock market?
+6) How can neural networks be used to predict stock market prices?
+7) How do the results of these different models compare with each other?
+Research objectives
+1) Investigate the effectiveness of Markov chains and neural networks in predicting stock prices;
+2) Compare the prediction accuracy of these two models;
+Scope and limitations
+1) The research will be conducted on the S&P 500 stock market;
+2) Adopt metrics for evaluating the accuracy of prediction;
+3) Limitations due to the complexity of the models - overfitting, underfitting, selection of appropriate parameters;
+II. Literature review
+Review of predictive models in stock price markets;
+Markov chain models and their applications;
+Neural network models and their applications;
+III. Data and methodology
+Description of the data source (most likely yahoo index);
+Preparation and processing of raw data;
+Review of models used - assumptions and limitations of Markov chains, recurrent neural networks - description of LSTM networks;
+Review of applied model parameters;
+IV. Results and analysis of models;
+Evaluation of individual models;
+Benchmark and comparison of model results;
+Drawing conclusions and model limitation;
+V. Summary
